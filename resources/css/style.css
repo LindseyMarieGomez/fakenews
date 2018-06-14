@@ -1,0 +1,39 @@
+.header {
+  padding: 20px;
+  display:flex;
+  border: 1px solid gray;
+  max-width: 95%;
+  margin: 0 auto;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display:inline-flex;
+  background-color: skyblue;
+  flex: 3;
+  align-items: center;
+}
+
+.logo img, .logo p {
+  display:inline-block;
+}
+
+.logo p {
+  padding-left:15px;
+  color: mediumaquamarine;}
+
+.list {
+  display:inline-flex;
+  background-color: #f7f7f7;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list li {
+  display:inline-block;
+}
+
+.list a {color:black;}

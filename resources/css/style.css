@@ -39,4 +39,51 @@
 /* Now we start out the columns section */
 .content-container {
   display:flex;
+  border: 2px solid red;
+}
+
+/*Out for the count
+.column {
+display: inline-flex;
+}
+*/
+
+.top-center, .bottom-center, .top-left, .middle-left, .bottom-left, .rightin-solo  {
+  border:1px #000 solid;
+}
+
+
+.column .small {
+  width: 240px;
+  display: inline-flex;
+  border: 2px solid red;
+}
+
+.column .medium {
+  width: 300px;
+  display: inline-flex;
+  border: 2px solid red;
+}
+
+.column .large {
+  width: 630px;
+  display: inline-flex;
+  border: 2px solid red;
+}
+
+
+.top-center .flex-container {
+  background-image: url(/Users/newuser/Documents/coding/fakenews/resources/img-story-main.png);
+  color:white;
+  font-family:georgia, serif;
+  font-weight:bold;
+  font-size: 40px;
+}
+
+.top-left .flex-container {
+  background-image: url(/Users/newuser/Documents/coding/fakenews/resources/img-story-main.png);
+  color:white;
+  font-family:georgia, serif;
+  font-weight:bold;
+  font-size: 40px;
 }

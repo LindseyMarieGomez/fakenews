@@ -2,7 +2,7 @@
   padding: 20px;
   display:flex;
   border: 1px solid gray;
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
   font-family: verdana;
   font-size: 14px;
@@ -11,7 +11,6 @@
 
 .logo {
   display:inline-flex;
-  background-color: skyblue;
   flex: 3;
   align-items: center;
 }
@@ -26,7 +25,6 @@
 
 .list {
   display:inline-flex;
-  background-color: #f7f7f7;
   flex: 1;
   justify-content: space-around;
   align-items: center;
@@ -37,3 +35,8 @@
 }
 
 .list a {color:black;}
+
+/* Now we start out the columns section */
+.content-container {
+  display:flex;
+}
